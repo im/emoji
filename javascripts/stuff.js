@@ -63,7 +63,7 @@ function focusOnSearch(e) {
     }
 }
 
-$.getJSON('/javascripts/emojilib/emojis.json', function(emojis) {
+$.getJSON('/emoji/javascripts/emojilib/emojis.json', function(emojis) {
     var container = $('.emojis-container')
     Object.keys(emojis).forEach(function(key) {
         var emoji = emojis[key]
